@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  color: #272727;
 }
 
 .container {
@@ -44,7 +45,7 @@ body {
 
 .nav__link {
   text-decoration: none;
-  margin-right: 22px;
+  margin-right: 20px;
   font-size: 12px;
   color: #95989a;
 }
@@ -97,5 +98,37 @@ body {
   font-size: 20px;
   color: #95989A;
   margin: 0;
+}
+
+.tabs-content {
+  background: #F2F4FF url("https://imgur.com/iBd59zk.png") no-repeat bottom right 135px;
+  padding: 40px 45px;
+}
+
+.tabs-content__title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tabs-content__subtitle {
+  font-size: 18px;
+  max-width: 313px;
+  margin-bottom: 90px;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #FCDE29;
+  border: none;
+  padding: 15px 33px;
+  cursor: pointer;
+  -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #FCDE2995;
 }
 /*# sourceMappingURL=style.css.map */
